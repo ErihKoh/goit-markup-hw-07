@@ -6,10 +6,6 @@
   display: flex;
   margin-left: 86px;
 
-  & .item:not(:last-child) {
-    margin-right: 50px;
-  }
-
   & .active {
     color: $accent-color;
   }
@@ -30,7 +26,20 @@
   }
 }
 
-.site-nav-link a {
+.nav-item {
+  display: flex;
+  align-items: center;
+
+  & .nav-link:hover,
+  & .nav-link:focus {
+    color: $accent-color;
+  }
+}
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-link {
   position: relative;
   display: block;
   padding-top: 32px;
@@ -43,14 +52,4 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
-  & .item {
-    display: flex;
-    align-items: center;
-  }
-
-  & a:hover,
-  & a:focus {
-    color: $accent-color;
-  }
 }
