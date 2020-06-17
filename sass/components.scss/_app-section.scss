@@ -1,5 +1,29 @@
+.app-section-list {
+  display: flex;
+}
+
+.app-section-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.app-section-item {
+  position: relative;
+}
+
 .app-section-text {
-  color: #000000;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+
+  min-width: 370px;
+  padding: 27px 15px;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background-color: rgba(47, 48, 58, 0.8);
+
+  color: #ffffff;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
