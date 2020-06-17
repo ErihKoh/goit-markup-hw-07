@@ -344,7 +344,7 @@ h4 {
 
 /* team-conteiner */
 
-.team-conteiner {
+/* .team-conteiner {
   margin-left: auto;
   margin-right: auto;
   width: 1600px;
@@ -411,7 +411,7 @@ h4 {
 .team-link:hover,
 .team-link:focus {
   background-color: var(--accent-color);
-}
+} */
 
 /* clients */
 
