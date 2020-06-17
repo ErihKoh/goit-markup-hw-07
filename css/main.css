@@ -71,6 +71,10 @@ p {
   cursor: pointer;
 }
 
+.centered {
+  text-align: center;
+}
+
 .page-header {
   display: -webkit-box;
   display: -ms-flexbox;
