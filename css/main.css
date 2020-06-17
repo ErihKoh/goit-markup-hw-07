@@ -76,13 +76,16 @@ p {
 }
 
 .page-header {
+  width: 1600px;
+}
+
+.header-item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 1600px;
 }
 
 .web {
@@ -110,68 +113,6 @@ p {
 
 .logo:hover, .logo:focus {
   color: #2196f3;
-}
-
-.site-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.site-nav-link {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 86px;
-}
-
-.site-nav-link .active {
-  color: #2196f3;
-}
-
-.site-nav-link .active::after {
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: -1px;
-  content: "";
-  border-radius: 2px;
-  width: calc(100% - 2px);
-  height: 4px;
-  background-color: #2196f3;
-}
-
-.nav-item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.nav-item .nav-link:hover,
-.nav-item .nav-link:focus {
-  color: #2196f3;
-}
-
-.nav-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.nav-link {
-  position: relative;
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  color: #212121;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
 }
 
 .site-nav {
@@ -386,5 +327,137 @@ p {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+}
+
+.team-conteiner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  background-color: #f5f4fa;
+}
+
+.team-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team-section .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-title {
+  margin-bottom: 10px;
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-profession {
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.card-team {
+  padding-top: 30px;
+  padding-bottom: 24px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+.team-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 16px 44px 0;
+}
+
+.icon-main-collor {
+  fill: #afb1b8;
+}
+
+.team-link {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-link > .icon-team {
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-link:hover > .icon-team,
+.team-link:focus > .icon-team {
+  color: #2196f3;
+  fill: #ffffff;
+}
+
+.team-link:hover, .team-link:focus {
+  background-color: #2196f3;
+}
+
+.clients-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.clients-section li:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-section .title {
+  color: #212121;
+}
+
+.clients-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-link > .icon-clients {
+  -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.clients-link:hover > .icon-clients,
+.clients-link:focus > .icon-clients {
+  fill: #2196f3;
+}
+
+.clients-link:hover, .clients-link:focus {
+  border-color: #2196f3;
 }
 /*# sourceMappingURL=main.css.map */
