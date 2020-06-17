@@ -85,6 +85,16 @@ p {
   width: 1600px;
 }
 
+.web {
+  color: #2196f3;
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.web:hover {
+  color: #212121;
+}
+
 .logo {
   display: block;
   padding-top: 24px;
@@ -307,5 +317,41 @@ p {
 .hero-button {
   padding: 10px 32px;
   font-weight: bold;
+}
+
+.border-quality {
+  border-bottom: 1px solid #ececec;
+}
+
+.quality .list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.quality-title {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.quality .item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.quality-text {
+  width: 270px;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.icon-quality {
+  display: block;
+  width: 270px;
+  height: 120px;
+  padding: 25px 100px;
+  background-color: #f5f4fa;
 }
 /*# sourceMappingURL=main.css.map */
