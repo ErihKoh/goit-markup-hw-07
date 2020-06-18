@@ -470,7 +470,7 @@ h4 {
   width: 231px;
 } */
 
-.logo-footer {
+/* .logo-footer {
   display: block;
   margin-bottom: 10px;
 
@@ -494,8 +494,8 @@ h4 {
 }
 .studio-footer:hover {
   color: var(--accent-color);
-}
-
+} */
+/* 
 address p:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -511,7 +511,7 @@ address p:not(:last-child) {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-}
+} */
 .footer-social {
   margin-left: 69px;
 }

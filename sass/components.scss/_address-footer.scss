@@ -1,0 +1,16 @@
+address p:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.city {
+  color: $primery-bg-color;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.contacts-footer {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
