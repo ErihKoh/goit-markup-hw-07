@@ -17,11 +17,11 @@
 
   <body>
     <header class="page-header">
-    
-     <div class="conteiner header-item">
+      <div class="conteiner header-item">
         <nav class="site-nav">
           <a href="./index.html" class="logo">
-            <span class="web">Web</span> Studio</a>
+            <span class="web">Web</span> Studio</a
+          >
           <ul class="site-nav-link list">
             <li class="nav-item">
               <a href="./index.html" class="active nav-link">Студия</a>
@@ -52,8 +52,7 @@
             </a>
           </li>
         </ul>
-     </div>
-    
+      </div>
     </header>
     <main>
       <!-- hero -->
@@ -486,7 +485,7 @@
     </main>
     <footer>
       <div class="page-footer conteiner">
-        <div class="right-footer">
+        <div class="left-footer">
           <a href="./index.html" class="logo-footer">
             <span class="web-footer">Web</span>
             <span class="studio-footer">Studio</span>
@@ -532,130 +531,172 @@
             </li>
           </ul>
         </div>
-       
-          <form class="js-speaker-form subscribe">
-            <label for="mail" class="subscribe-text ">подпишитесь на рассылку</label>
-           <div class="footer-form">
-              <input type="email" name="email" id="mail" placeholder="E-mail" class="mail-field">
-              
-              <button type="submit" class="button subscribe-button centered">
-                Подписаться
-                <svg width="24" height="24" class="icon-batton">
-                  <use href="./image/sprite.svg#icon-send"></use>
-                </svg>
-              </button>
-           </div>
-          </form>
-        </div> -->
+
+        <form class="js-speaker-form subscribe">
+          <label for="mail" class="subscribe-text"
+            >подпишитесь на рассылку</label
+          >
+          <div class="footer-form">
+            <input
+              type="email"
+              name="email"
+              id="mail"
+              placeholder="E-mail"
+              class="mail-field"
+            />
+
+            <button type="submit" class="button subscribe-button centered">
+              Подписаться
+              <svg width="24" height="24" class="icon-batton">
+                <use href="./image/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
 
     <!-- модальное окно -->
 
-   <div class="backdrop is-hidden" data-modal>
-       <div class="modal">
-            <svg fill="none" xmlns="http://www.w3.org/2000/svg" class="modal-icon" data-modal-close>
-              <g filter="url(#filter0_ddd)">
-                <circle cx="18" cy="17" r="15" fill="#fff" />
-              </g>
-              <path
-                d="M24 12.108L22.892 11 18.5 15.392 14.108 11 13 12.108l4.392 4.392L13 20.892 14.108 22l4.392-4.392L22.892 22 24 20.892 19.608 16.5 24 12.108z"
-                fill="#000" />
-              <defs>
-                <filter id="filter0_ddd" x="0" y="0"  filterUnits="userSpaceOnUse"
-                  color-interpolation-filters="sRGB">
-                  <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                  <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-                  <feOffset dy="2" />
-                  <feGaussianBlur stdDeviation=".5" />
-                  <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0" />
-                  <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
-                  <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-                  <feOffset dy="1" />
-                  <feGaussianBlur stdDeviation=".5" />
-                  <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.14 0" />
-                  <feBlend in2="effect1_dropShadow" result="effect2_dropShadow" />
-                  <feColorMatrix in="SourceAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
-                  <feOffset dy="1" />
-                  <feGaussianBlur stdDeviation="1.5" />
-                  <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0" />
-                  <feBlend in2="effect2_dropShadow" result="effect3_dropShadow" />
-                  <feBlend in="SourceGraphic" in2="effect3_dropShadow" result="shape" />
-                </filter>
-              </defs>
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <svg
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+          class="modal-icon"
+          data-modal-close
+        >
+          <g filter="url(#filter0_ddd)">
+            <circle cx="18" cy="17" r="15" fill="#fff" />
+          </g>
+          <path
+            d="M24 12.108L22.892 11 18.5 15.392 14.108 11 13 12.108l4.392 4.392L13 20.892 14.108 22l4.392-4.392L22.892 22 24 20.892 19.608 16.5 24 12.108z"
+            fill="#000"
+          />
+          <defs>
+            <filter
+              id="filter0_ddd"
+              x="0"
+              y="0"
+              filterUnits="userSpaceOnUse"
+              color-interpolation-filters="sRGB"
+            >
+              <feFlood flood-opacity="0" result="BackgroundImageFix" />
+              <feColorMatrix
+                in="SourceAlpha"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              />
+              <feOffset dy="2" />
+              <feGaussianBlur stdDeviation=".5" />
+              <feColorMatrix
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"
+              />
+              <feBlend in2="BackgroundImageFix" result="effect1_dropShadow" />
+              <feColorMatrix
+                in="SourceAlpha"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              />
+              <feOffset dy="1" />
+              <feGaussianBlur stdDeviation=".5" />
+              <feColorMatrix
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.14 0"
+              />
+              <feBlend in2="effect1_dropShadow" result="effect2_dropShadow" />
+              <feColorMatrix
+                in="SourceAlpha"
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+              />
+              <feOffset dy="1" />
+              <feGaussianBlur stdDeviation="1.5" />
+              <feColorMatrix
+                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.12 0"
+              />
+              <feBlend in2="effect2_dropShadow" result="effect3_dropShadow" />
+              <feBlend
+                in="SourceGraphic"
+                in2="effect3_dropShadow"
+                result="shape"
+              />
+            </filter>
+          </defs>
+        </svg>
+        <b class="modal-caption">Оставьте свои данные, мы вам перезвоним</b>
+
+        <form class="js-speaker-form modal-form" autocomplete="off">
+          <label class="form-label">
+            <input type="text" name="name" placeholder=" " class="form-field" />
+            <span class="form-text">Имя</span>
+            <svg width="18" height="18" class="form-icon">
+              <use href="./image/sprite.svg#icon-person-black"></use>
             </svg>
-            <b class="modal-caption">Оставьте свои данные, мы вам перезвоним</b>
-          
-            <form class="js-speaker-form modal-form" autocomplete="off">
-              
-                
-                    <label class="form-label">
-                      <input type="text" name="name" placeholder=" "
-                      class="form-field">
-                      <span class="form-text">Имя</span>
-                      <svg width="18" height="18" class="form-icon">
-                        <use href="./image/sprite.svg#icon-person-black"></use>
-                      </svg>
-                    </label>
-                   
-                      <label class="form-label">
-                      <input type="tel" name="tel" placeholder=" "
-                      class="form-field">
-                      <span class="form-text">Телефон</span>
-                      <svg width="18" height="18" class="form-icon">
-                        <use href="./image/sprite.svg#icon-phone-black"></use>
-                      </svg>
-                    </label>
+          </label>
 
-                    <label class="form-label">
-                      <input type="email" name="modal-mail" placeholder=" "
-                      class="form-field">
-                      <span class="form-text">Почта</span>
-                      <svg width="18" height="18" class="form-icon">
-                        <use href="./image/sprite.svg#icon-email-black"></use>
-                      </svg>
-                    </label>
-                  
-              
-                    <label class="form-textarea">
-                      <textarea name="comment" rows="5" placeholder=" " class="comments"></textarea>
-                      <span class="form-comments">Комментарии</span>
-                    </label>
-                   
-                  
-                <label class="form-policy">
-                  <input type="checkbox" name="policy" value="policy" class="checkbox">
-                  <span class="icon"></span>
-                  <span class="policy-text">
-                    Соглашаюсь с рассылкой и принимаю</span>
-                  <a href="#">Условия договора</a>
-                </label>
-              <button type="submit" class="button modal-button centered">
-                Отправить
-              </button>
-          
-            </form>
-       </div>
-   </div>
+          <label class="form-label">
+            <input type="tel" name="tel" placeholder=" " class="form-field" />
+            <span class="form-text">Телефон</span>
+            <svg width="18" height="18" class="form-icon">
+              <use href="./image/sprite.svg#icon-phone-black"></use>
+            </svg>
+          </label>
 
+          <label class="form-label">
+            <input
+              type="email"
+              name="modal-mail"
+              placeholder=" "
+              class="form-field"
+            />
+            <span class="form-text">Почта</span>
+            <svg width="18" height="18" class="form-icon">
+              <use href="./image/sprite.svg#icon-email-black"></use>
+            </svg>
+          </label>
+
+          <label class="form-textarea">
+            <textarea
+              name="comment"
+              rows="5"
+              placeholder=" "
+              class="comments"
+            ></textarea>
+            <span class="form-comments">Комментарии</span>
+          </label>
+
+          <label class="form-policy">
+            <input
+              type="checkbox"
+              name="policy"
+              value="policy"
+              class="checkbox"
+            />
+            <span class="icon"></span>
+            <span class="policy-text"> Соглашаюсь с рассылкой и принимаю</span>
+            <a href="#">Условия договора</a>
+          </label>
+          <button type="submit" class="button modal-button centered">
+            Отправить
+          </button>
+        </form>
+      </div>
+    </div>
 
     <!-- javascript -->
 
     <script src="./js/modal.js"></script>
     <script>
-       (() => {
-          document
-            .querySelector('.js-speaker-form')
-            .addEventListener('submit', e => {
-              e.preventDefault();
+      (() => {
+        document
+          .querySelector(".js-speaker-form")
+          .addEventListener("submit", (e) => {
+            e.preventDefault();
 
-              new FormData(e.currentTarget).forEach((value, name) =>
-                console.log(`${name}: ${value}`),
-              );
+            new FormData(e.currentTarget).forEach((value, name) =>
+              console.log(`${name}: ${value}`)
+            );
 
-              e.currentTarget.reset();
-            });
-        })();
+            e.currentTarget.reset();
+          });
+      })();
     </script>
   </body>
 </html>

@@ -512,7 +512,7 @@ address p:not(:last-child) {
   font-size: 14px;
   line-height: 1.71;
 } */
-.footer-social {
+/* .footer-social {
   margin-left: 69px;
 }
 .community {
@@ -553,11 +553,11 @@ address p:not(:last-child) {
 
 .social .item:not(:last-child) {
   margin-right: 10px;
-}
+} */
 
 /* form-footer */
 
-.subscribe {
+/* .subscribe {
   display: inline-flex;
   flex-direction: column;
   margin-left: 94px;
@@ -610,9 +610,9 @@ address p:not(:last-child) {
 .icon-batton {
   margin-left: 10px;
   fill: var(--primery-bg-color);
-}
+} */
 
-.copyright {
+/* .copyright {
   padding-top: 18px;
   padding-bottom: 21px;
 
@@ -624,7 +624,7 @@ address p:not(:last-child) {
 .border-copy {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   width: 1170px;
-}
+} */
 
 /* portfolio */
 
