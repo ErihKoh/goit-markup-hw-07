@@ -15,18 +15,18 @@
     <link rel="stylesheet" href="./css/portfolio.min.css" />
   </head>
   <body>
-    <header class="page-header header-border conteiner">
-      
+    <header class="page-header">
+      <div class="conteiner header-item">
         <nav class="site-nav">
           <a href="./index.html" class="logo">
             <span class="web">Web</span> Studio</a
           >
           <ul class="site-nav-link list">
             <li class="nav-item">
-              <a href="./index.html" class="nav-link">Студия</a>
+              <a href="./index.html" class="active nav-link">Студия</a>
             </li>
             <li class="nav-item">
-              <a href="./portfolio.html" class="active nav-link">Портфолио</a>
+              <a href="./portfolio.html" class="nav-link">Портфолио</a>
             </li>
             <li class="nav-item">
               <a href="#" class="nav-link">Контакты</a>
@@ -51,7 +51,7 @@
             </a>
           </li>
         </ul>
-    
+      </div>
     </header>
     <main>
       <!--<h1>наши работы</h1>  -->
@@ -287,8 +287,8 @@
       </section>
     </main>
     <footer>
-      <div class="footer-flex conteiner">
-        <div class="address-footer">
+      <div class="page-footer conteiner">
+        <div class="left-footer">
           <a href="./index.html" class="logo-footer">
             <span class="web-footer">Web</span>
             <span class="studio-footer">Studio</span>
@@ -296,7 +296,7 @@
           <address>
             <p class="city">г. Киев, пр-т Леси Украинки 26</p>
             <p class="contacts-footer">info@example.com</p>
-            <p class="contacts-footer phone">+38 099 111 11 11</p>
+            <p class="contacts-footer">+38 099 111 11 11</p>
           </address>
         </div>
         <div class="footer-social">
@@ -334,12 +334,20 @@
             </li>
           </ul>
         </div>
-    
+
         <form class="js-speaker-form subscribe">
-          <label for="mail" class="subscribe-text ">подпишитесь на рассылку</label>
+          <label for="mail" class="subscribe-text"
+            >подпишитесь на рассылку</label
+          >
           <div class="footer-form">
-            <input type="email" name="email" id="mail" placeholder="E-mail" class="mail-field">
-    
+            <input
+              type="email"
+              name="email"
+              id="mail"
+              placeholder="E-mail"
+              class="mail-field"
+            />
+
             <button type="submit" class="button subscribe-button centered">
               Подписаться
               <svg width="24" height="24" class="icon-batton">
@@ -348,31 +356,26 @@
             </button>
           </div>
         </form>
-      </div> -->
       </div>
-      <p class="copyright centered conteiner border-copy">
-        2020 | Developed by GoIT Students
-      </p>
     </footer>
 
-<!-- javascript -->
+    <!-- javascript -->
 
-<script src="./js/modal.js"></script>
-<script>
-  (() => {
-    document
-      .querySelector('.js-speaker-form')
-      .addEventListener('submit', e => {
-        e.preventDefault();
+    <script src="./js/modal.js"></script>
+    <script>
+      (() => {
+        document
+          .querySelector(".js-speaker-form")
+          .addEventListener("submit", (e) => {
+            e.preventDefault();
 
-        new FormData(e.currentTarget).forEach((value, name) =>
-          console.log(`${name}: ${value}`),
-        );
+            new FormData(e.currentTarget).forEach((value, name) =>
+              console.log(`${name}: ${value}`)
+            );
 
-        e.currentTarget.reset();
-      });
-  })();
-</script>
-
+            e.currentTarget.reset();
+          });
+      })();
+    </script>
   </body>
 </html>
