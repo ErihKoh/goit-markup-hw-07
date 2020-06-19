@@ -1,0 +1,44 @@
+.form-policy {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+
+  & a {
+    color: $accent-color;
+    text-decoration: underline;
+  }
+}
+.policy-text {
+  margin-right: 5px;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.icon {
+  display: inline-block;
+  width: 15.9px;
+  height: 15px;
+  margin-right: 8.5px;
+
+  border: 2px solid $title-text-color;
+  border-radius: 2px;
+}
+
+.checkbox {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+
+  &:checked + .icon {
+    border-color: $accent-color;
+    background-color: $accent-color;
+    background-image: url(../image/icon-check.svg);
+    background-size: contain;
+    background-origin: border-box;
+  }
+}
