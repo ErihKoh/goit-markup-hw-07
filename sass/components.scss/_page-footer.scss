@@ -1,14 +1,24 @@
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  background: #2f303a;
+}
+
 .page-footer {
   display: flex;
   align-items: baseline;
   padding-top: 60px;
   padding-bottom: 60px;
-  margin-left: auto;
-  margin-right: auto;
-  width: $width-page;
-  background: #2f303a;
 }
 
 .left-footer {
   width: 231px;
+}
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  background: #2f303a;
 }
